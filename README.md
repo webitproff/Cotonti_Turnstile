@@ -26,6 +26,13 @@ Setup is very simple, just add the following validation field to login and input
             </tr>
             <!-- ENDIF -->
 
-Developed by Ali Çömez
+
 Compatible with Cotonti Siena v0.9.25+
-Turnstile documentation: Cloudflare Turnstile
+
+## Cotonti Cloudflare Turnstile Plugin
+
+- [@Cotonti Cloudflare Turnstile Plugin](https://rootali.net/cloudflare-turnstile-plugin-for-cotonti-siena.slw) Cotonti Cloudflare Turnstile Plugin
+
+  
+
+
