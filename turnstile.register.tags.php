@@ -2,7 +2,7 @@
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=users.register.tags
-Tags=users.register.tpl:{USERS_REGISTER_VERIFYIMG};users.register.tpl:{USERS_REGISTER_VERIFYINPUT}
+Tags=users.register.tpl:{USERS_REGISTER_VERIFY_IMG};users.register.tpl:{USERS_REGISTER_VERIFY_INPUT}
 Order=10
 [END_COT_EXT]
 ==================== */
@@ -19,7 +19,8 @@ defined('COT_CODE') or die('Wrong URL.');
 
 if ($usr['id'] === 0 && $cfg['captchamain'] === 'turnstile') {
     $t->assign([
-        'USERS_REGISTER_VERIFYIMG'   => cot_captcha_generate('turnstile'),
-        'USERS_REGISTER_VERIFYINPUT' => ''  
+        'USERS_REGISTER_VERIFY_IMG'   => cot_captcha_generate('turnstile'),
+        'USERS_REGISTER_VERIFY_INPUT' => ''  
     ]);
 }
+
