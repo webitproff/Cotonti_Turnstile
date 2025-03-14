@@ -138,8 +138,7 @@
 	</tbody>
 </table>
 
-<p>&nbsp;</p>
 
-<p>Dear @Kort, I think this is what you wanted to say, did I understand correctly? I have updated the tags, I am uploading them to githuba now. if this tag system is correct.</p>
 
-<p>Update plugin:&nbsp;https://github.com/SLW-CMS/Cotonti_Turnstile</p>
+
+
